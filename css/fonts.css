@@ -1,0 +1,41 @@
+*{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: 
+         url('../fonts/rubik-v21-latin-regular.woff2') format('woff2'), 
+         url('../fonts/rubik-v21-latin-regular.woff') format('woff'); 
+  }
+  
+  @font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    src: 
+         url('../fonts/rubik-v21-latin-500.woff2') format('woff2'), 
+         url('../fonts/rubik-v21-latin-500.woff') format('woff'); 
+  }
+  
+  @font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    src: 
+         url('../fonts/rubik-v21-latin-700.woff2') format('woff2'), 
+         url('../fonts/rubik-v21-latin-700.woff') format('woff'); 
+  }
+  
+  @font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 800;
+    src: 
+         url('../fonts/rubik-v21-latin-800.woff2') format('woff2'), 
+         url('../fonts/rubik-v21-latin-800.woff') format('woff'); 
+  }
