@@ -6,28 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <title>Books</title>
 </head>
 <body>
     <header class="header">
         <div class="header__container container">
-           <div class="header__inner-wrapper">
-            <div class="header__left">
-                <a href="./index.html"><img src="./images/site-logo.svg" alt="logo image"></a>
-            
-
-                <div class="header__input-wrapper">
-                    <img class="header__search-icon" src="./images/search-icon.svg" alt="">
-                    <input class="header__search-input" type="text" placeholder="Search books">
+            <div class="header__inner-wrapper">
+                <div class="header__left">
+                    <a href="./index.html"><img src="./images/site-logo.svg" alt="logo image"></a>
+                    
+                    
+                    <div class="header__input-wrapper">
+                        <img class="header__search-icon" src="./images/search-icon.svg" alt="">
+                        <input class="header__search-input" type="text" placeholder="Search books" onchange="getApi(this)">
+                    </div>
                 </div>
-            </div>
-
-
-            <button class="header__back-switch"><img src="./images/theme-switchBtn.svg" alt=""></button>
-           </div> 
+                
+                
+                <button class="header__back-switch"><img src="./images/theme-switchBtn.svg" alt=""></button>
+            </div> 
         </div>
     </header>
-
+    
     <main>
         <section class="hero">
             <div class="container hero__container">
@@ -35,39 +36,95 @@
                     <p class="hero__result">
                         Showing <span class="books-result">0</span> Result(s)
                     </p>
-
+                    
                     <button class="hero__order-btn"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M19 4H5C3.89543 4 3 4.89543 3 6V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V6C21 4.89543 20.1046 4 19 4Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M16 2V6" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M8 2V6" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M3 10H21" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>Order by newest</button>
+                    </svg>Order by newest</button>
                 </div>
             </div>
         </section>
-
+        
         <section class="books">
             <div class="container books__container">
                 <div class="books__left">
                     <h2 class="books__left-heading">Bookmarks</h2>
                     <p class="books__left__txt">If you don't like to read, you haven't found the right book</p>
+                    
+                    <ul class="left__list">
+                        
+                    </ul>
                 </div>
-
+                
                 <div class="books__right">
-
+                    <ul class="right__list">
+                        
+                    </ul>
                 </div>
             </div>
-        </section>
-    </main>
 
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel"></h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        
+    </main>
+    
     <footer>
     </footer>
-
-
+    
+    
     <template id="left">
-        
+        <li class="left__list-item">
+            <div>
+                <h3 class="left__item-heading">Python</h3>
+                <p class="left__item-auth">David M. Beazley</p>
+            </div>
+            
+            <div class="left__item-btn-wrap">
+                <button class="left__item-info btn"><img src="./images/more-info-icon.svg" alt=""></button>
+                <button class="left__item-delete btn"><img src="./images/delete-icon.svg" alt=""></button>
+            </div>
+        </li>
     </template>
-
+    
+    
+    <template id="right">
+        <li class="right__list-item">
+            <div class="right__item-img-wrap">
+                <img class="right__item-img" src="./images/book-img.png" alt="">
+            </div>
+            
+            <h3 class="right__item-heading">Python</h3>
+            <p class="right__item-auth">David M. Beazley</p>
+            <p class="right__item-year">2009</p>
+            
+            <div class="right__btn-wrapper">
+                <div>
+                    <button class="right__bookmark" onclick="addItem('id')" >Bookmark</button>
+                    <button class="right__info" data-bs-toggle="modal" data-bs-target="#exampleModal">More Info</button>
+                </div>
+                <a href="#!" class="right__read">Read</a>
+            </div>
+        </li>
+    </template>
+    <script src="./js/bootstrap.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>

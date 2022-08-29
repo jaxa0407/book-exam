@@ -1,0 +1,725 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 505,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "Wf-uzgEACAAJ",
+      "etag": "IveZW/W8lJQ",
+      "selfLink": "https://books.googleapis.com/books/v1/volumes/Wf-uzgEACAAJ",
+      "volumeInfo": {
+        "title": "Build an Orchestrator in Go",
+        "authors": [
+          "Tim Boring"
+        ],
+        "publisher": "Manning",
+        "publishedDate": "2022-05-31",
+        "description": "Understand Kubernetes and other orchestration systems deeply by building your own using Go and the Docker API. Orchestration systems like Kubernetes coordinate other software subsystems and services to create a complete organized system. Although orchestration tools have a reputation for complexity, they’re designed around few important patterns that apply across many aspects of software development. Build an Orchestrator in Go reveals the inner workings of orchestration frameworks by guiding you as you design and implement your own using the Go SDK. As you create your own orchestration framework, you’ll improve your understanding of Kubernetes and its role in distributed system design. You’ll also build the skills required to design custom orchestration solutions for those times when an out-of-the-box solution isn’t a good fit. Purchase of the print book includes a free eBook in PDF, Kindle, and ePub formats from Manning Publications.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1617299758"
+          },  
+          {
+            "type": "ISBN_13",      
+            "identifier": "9781617299759"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 200,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Wf-uzgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Wf-uzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=Wf-uzgEACAAJ&dq=golang&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=Wf-uzgEACAAJ&dq=golang&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Build_an_Orchestrator_in_Go.html?hl=&id=Wf-uzgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "KH",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "KH",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Wf-uzgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Purchase of the print book includes a free eBook in PDF, Kindle, and ePub formats from Manning Publications."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "A3RdEAAAQBAJ",
+      "etag": "2peRuXaI3XU",
+      "selfLink": "https://books.googleapis.com/books/v1/volumes/A3RdEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Reproducible Data Science with Pachyderm",
+        "subtitle": "Learn how to build version-controlled, end-to-end data pipelines using Pachyderm 2.0",
+        "authors": [
+          "Svetlana Karslioglu"
+        ],
+        "publisher": "Packt Publishing Ltd",
+        "publishedDate": "2022-03-18",
+        "description": "Create scalable and reliable data pipelines easily with Pachyderm Key FeaturesLearn how to build an enterprise-level reproducible data science platform with PachydermDeploy Pachyderm on cloud platforms such as AWS EKS, Google Kubernetes Engine, and Microsoft Azure Kubernetes ServiceIntegrate Pachyderm with other data science tools, such as Pachyderm NotebooksBook Description Pachyderm is an open source project that enables data scientists to run reproducible data pipelines and scale them to an enterprise level. This book will teach you how to implement Pachyderm to create collaborative data science workflows and reproduce your ML experiments at scale. You'll begin your journey by exploring the importance of data reproducibility and comparing different data science platforms. Next, you'll explore how Pachyderm fits into the picture and its significance, followed by learning how to install Pachyderm locally on your computer or a cloud platform of your choice. You'll then discover the architectural components and Pachyderm's main pipeline principles and concepts. The book demonstrates how to use Pachyderm components to create your first data pipeline and advances to cover common operations involving data, such as uploading data to and from Pachyderm to create more complex pipelines. Based on what you've learned, you'll develop an end-to-end ML workflow, before trying out the hyperparameter tuning technique and the different supported Pachyderm language clients. Finally, you'll learn how to use a SaaS version of Pachyderm with Pachyderm Notebooks. By the end of this book, you will learn all aspects of running your data pipelines in Pachyderm and manage them on a day-to-day basis. What you will learnUnderstand the importance of reproducible data science for enterpriseExplore the basics of Pachyderm, such as commits and branchesUpload data to and from PachydermImplement common pipeline operations in PachydermCreate a real-life example of hyperparameter tuning in PachydermCombine Pachyderm with Pachyderm language clients in Python and GoWho this book is for This book is for new as well as experienced data scientists and machine learning engineers who want to build scalable infrastructures for their data science projects. Basic knowledge of Python programming and Kubernetes will be beneficial. Familiarity with Golang will be helpful.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781801079075"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1801079072"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 364,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.3.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=A3RdEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=A3RdEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=A3RdEAAAQBAJ&printsec=frontcover&dq=golang&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=A3RdEAAAQBAJ&dq=golang&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Reproducible_Data_Science_with_Pachyderm.html?hl=&id=A3RdEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "KH",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "KH",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=A3RdEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book will teach you how to implement Pachyderm to create collaborative data science workflows and reproduce your ML experiments at scale."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "TIvhzgEACAAJ",
+      "etag": "PpQansP+WXo",
+      "selfLink": "https://books.googleapis.com/books/v1/volumes/TIvhzgEACAAJ",
+      "volumeInfo": {
+        "title": "Network Programming with Go Language",
+        "subtitle": "Essential Skills for Programming, Using and Securing Networks with Open Source Google Golang",
+        "authors": [
+          "Jan Newmarch",
+          "Ronald Petty"
+        ],
+        "publisher": "Apress",
+        "publishedDate": "2022-06-27",
+        "description": "Dive into key topics in network architecture implemented with the Google-backed open source Go programming language. Networking topics such as data serialization, application level protocols, character sets and encodings are discussed and demonstrated in Go. This book has been updated to the Go version 1.18 which includes modules, generics, and fuzzing along with updated and additional examples. Beyond the fundamentals, Network Programming with Go, Second Edition covers key networking and security issues such as HTTP protocol changes, validation and templates, remote procedure call (RPC) and REST comparison, and more. Additionally, authors Ronald Petty and Jan Newmarch guide you in building and connecting to a complete web server based on Go. Along the way, use of a Go web toolkit (Gorilla) will be employed. This book can serve as both an essential learning guide and reference on networking concepts and implementation in Go. Free source code is available on Github for this book under Creative Commons open source license. What You Will Learn Perform network programming with Go (including JSON and RPC) Understand Gorilla, the Golang web toolkit, and how to use it Implement a microservice architecture with Go Leverage Go features such as generics, fuzzing Master syscalls and how to employ them with Go Who This Book Is For Anyone interested in learning networking concepts implemented in modern Go. Basic knowledge in Go is assumed, however, the content and examples in this book are approachable with modest development experience in other languages.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1484280946"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781484280942"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 377,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=TIvhzgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=TIvhzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=TIvhzgEACAAJ&dq=golang&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=TIvhzgEACAAJ&dq=golang&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Network_Programming_with_Go_Language.html?hl=&id=TIvhzgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "KH",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "KH",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=TIvhzgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book can serve as both an essential learning guide and reference on networking concepts and implementation in Go. Free source code is available on Github for this book under Creative Commons open source license."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "E3KNzgEACAAJ",
+      "etag": "4zlu4imzLZo",
+      "selfLink": "https://books.googleapis.com/books/v1/volumes/E3KNzgEACAAJ",
+      "volumeInfo": {
+        "title": "Pro Go",
+        "subtitle": "The Complete Guide to Programming Reliable and Efficient Software Using Golang",
+        "authors": [
+          "Adam Freeman"
+        ],
+        "publisher": "Apress",
+        "publishedDate": "2022-01-28",
+        "description": "Best-selling author Adam Freeman explains how to get the most from Go, starting from the basics and building up to the most advanced and sophisticated features. You will learn how Go builds on a simple and consistent type system to create a comprehensive and productive development experience that produces fast and robust applications that run across platforms. Go, also known as Golang, is the concise and efficient programming language designed by Google for creating high-performance, cross-platform applications. Go combines strong static types with simple syntax and a comprehensive standard library to increase programmer productivity, while still supporting features such as concurrent/parallel programming. Each topic is covered in a clear, concise, no-nonsense approach that is packed with the details you need to learn to be truly effective. Chapters include common problems and how to avoid them. What You Will Learn Gain a solid understanding of the Go language and tools Gain in-depth knowledge of the Go standard library Use Go for concurrent/parallel tasks Use Go for client- and server-side development Who This Book Is For Experienced developers who want to use Go to create applications",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1484273540"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781484273548"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 1076,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=E3KNzgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=E3KNzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=E3KNzgEACAAJ&dq=golang&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=E3KNzgEACAAJ&dq=golang&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Pro_Go.html?hl=&id=E3KNzgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "KH",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "KH",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=E3KNzgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "What You Will Learn Gain a solid understanding of the Go language and tools Gain in-depth knowledge of the Go standard library Use Go for concurrent/parallel tasks Use Go for client- and server-side development Who This Book Is For ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "xo9NEAAAQBAJ",
+      "etag": "8WwIfzGM4Mk",
+      "selfLink": "https://books.googleapis.com/books/v1/volumes/xo9NEAAAQBAJ",
+      "volumeInfo": {
+        "title": "GoLang Programming untuk Sains dan Teknik",
+        "authors": [
+          "Fachrizal Rian Pratama"
+        ],
+        "publisher": "CV Cipta Prima Nusantara",
+        "publishedDate": "2021-10-26",
+        "description": "Buku Go Programming untuk Sains dan Teknik dimaksudkan sebagai alternatif buku ajar mata kuliah bahasa pemograman yang dapat diberikan kepada mahasiswa Fakultas Sains dan Teknologi. Walaupun demikian, buku ini dapat pula digunakan bagi siswa politeknik dan para bidang teknik secara umum. Buku ini dirancang berdasarkan pengalaman mengajar di Universitas Islam Negeri Walisongo Semarang. Buku ini memuat prinsip dan konsep dasar bahasa pemograman Go yang disajikan secara jelas, padat, dan komprehensif. Go diciptakan oleh Robert Griesemer, Rob Pike, dan Ken Thompson di Google pada tahun 2007. Buku ini merupakan referensi untuk bahasa pemrograman Go dan menjelaskan semua elemen bahasa dan menggambarkan penggunaannya dengan contoh kode, serta diberi fitur video tutorial supaya pembaca dapat belajar secara mandiri. Diharapkan buku ini dapat membantu dalam mengembangkan bahasa pemograman Go tidak hanya di ilmu sains, tetapi juga di teknik, kesehatan, dan bidang lainnya. Tidak ada akhir untuk belajar di dunia komputer sains, di mana alat dan teknik terus berubah dan meningkat. Siapapun Anda, sudah memiliki gelar atau baru memulai (mahasiswa), terus belajar dan memperbarui pengetahuan itu penting. Saya harap buku ini dapat bermanfaat sebagai fondasi Anda yang ingin mempelajari bahasa pemrograman Go. “Jangan pernah puas memperbarui ilmu dan mengimplementasikannya untuk sesuatu yang baik.” -- Fachrizal Rian Pratama",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9786233800457"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "6233800455"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 150,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Nonfiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.1.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=xo9NEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=xo9NEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "id",
+        "previewLink": "http://books.google.com/books?id=xo9NEAAAQBAJ&pg=PP1&dq=golang&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=xo9NEAAAQBAJ&dq=golang&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/GoLang_Programming_untuk_Sains_dan_Tekni.html?hl=&id=xo9NEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "KH",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "KH",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/GoLang_Programming_untuk_Sains_dan_Tekni-sample-pdf.acsm?id=xo9NEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=xo9NEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Saya harap buku ini dapat bermanfaat sebagai fondasi Anda yang ingin mempelajari bahasa pemrograman Go. “Jangan pernah puas memperbarui ilmu dan mengimplementasikannya untuk sesuatu yang baik.” -- Fachrizal Rian Pratama"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "7qZJEAAAQBAJ",
+      "etag": "R+v7lJEI68A",
+      "selfLink": "https://books.googleapis.com/books/v1/volumes/7qZJEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Flutter for Beginners",
+        "subtitle": "An introductory guide to building cross-platform mobile applications with Flutter 2.5 and Dart, 2nd Edition",
+        "authors": [
+          "Thomas Bailey",
+          "Alessandro Biessek"
+        ],
+        "publisher": "Packt Publishing Ltd",
+        "publishedDate": "2021-10-18",
+        "description": "Develop the real-world experience you need to build and launch your own Flutter apps with this full-color guide Key FeaturesGet up to speed with the basics of Dart programming and delve into Flutter developmentLearn about Flutter widgets, plugins, and animations to create a high-quality app user experiencePackage and deploy your Flutter apps to achieve native-like performanceBook Description There have been many attempts at creating frameworks that are truly cross-platform, but most struggle to create a native-like experience at high performance levels. Flutter achieves this with an elegant design and a wealth of third-party plugins, making it the future of mobile app development. If you are a mobile developer who wants to create rich and expressive native apps with the latest Google Flutter framework, this book is for you. This book will guide you through developing your first app from scratch all the way to production release. Starting with the setup of your development environment, you'll learn about your app's UI design and responding to user input via Flutter widgets, manage app navigation and screen transitions, and create widget animations. You'll then explore the rich set of third party-plugins, including Firebase and Google Maps, and get to grips with testing and debugging. Finally, you'll get up to speed with releasing your app to mobile stores and the web. By the end of this Flutter book, you'll have gained the confidence to create, edit, test, and release a full Flutter app on your own. What you will learnExplore the core concepts of the Flutter framework and how it is used for cross-platform developmentUnderstand the fundamentals of the Dart programming languageWork with Flutter widgets and learn the concepts of stateful and stateless widgetsAdd animation to your app using animated widgets and advanced animations techniquesMaster the complete development lifecycle, including testing and debuggingInvestigate the app release process to both mobile stores and the webWho this book is for This book is for developers looking to learn Google's revolutionary framework Flutter from scratch. No prior knowledge of Flutter or Dart is required.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781800562363"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1800562365"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 370,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.5.4.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=7qZJEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=7qZJEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=7qZJEAAAQBAJ&pg=PP1&dq=golang&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=7qZJEAAAQBAJ&dq=golang&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Flutter_for_Beginners.html?hl=&id=7qZJEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "KH",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "KH",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=7qZJEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book will guide you through developing your first app from scratch all the way to production release."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "yFXEzgEACAAJ",
+      "etag": "95LXL10H6B4",
+      "selfLink": "https://books.googleapis.com/books/v1/volumes/yFXEzgEACAAJ",
+      "volumeInfo": {
+        "title": "Incremental Construction of Code Property Graphs",
+        "authors": [
+          "Samuel Hopstock"
+        ],
+        "publishedDate": "2021-10-15",
+        "description": "Master's Thesis from the year 2021 in the subject Computer Science - IT-Security, grade: 2,0, Technical University of Munich (Department of Informatics), language: English, abstract: This thesis extends a modified CPG approach that is able to operate on multiple programming languages, i.e. C/C++, Java, Python and Golang, available on GitHub3 [Fra21a]. Graph-based code analysis systems are versatile tools for reasoning about the correctness of complex software projects. One area in which they are widely used is in source code auditing: Security vulnerabilities, for example using cryptographic functions with insecure algorithms, can be introduced by coding patterns that spread over the boundaries of several methods, classes or even files in the project. This is where graph-based analysis makes finding these vulnerabilities easier, by creating a framework where the source code can be represented as a graph and vulnerable",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "3346540715"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9783346540713"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 60,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=yFXEzgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=yFXEzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=yFXEzgEACAAJ&dq=golang&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=yFXEzgEACAAJ&dq=golang&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Incremental_Construction_of_Code_Propert.html?hl=&id=yFXEzgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "KH",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "KH",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=yFXEzgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This is where graph-based analysis makes finding these vulnerabilities easier, by creating a framework where the source code can be represented as a graph and vulnerable"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "iBlPEAAAQBAJ",
+      "etag": "jMcfDIyOkEE",
+      "selfLink": "https://books.googleapis.com/books/v1/volumes/iBlPEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Incremental Construction of Code Property Graphs",
+        "authors": [
+          "Samuel Hopstock"
+        ],
+        "publisher": "GRIN Verlag",
+        "publishedDate": "2021-11-17",
+        "description": "Master's Thesis from the year 2021 in the subject Computer Science - IT-Security, grade: 2,0, Technical University of Munich (Department of Informatics), language: English, abstract: This thesis extends a modified CPG approach that is able to operate on multiple programming languages, i.e. C/C++, Java, Python and Golang, available on GitHub3 [Fra21a]. Graph-based code analysis systems are versatile tools for reasoning about the correctness of complex software projects. One area in which they are widely used is in source code auditing: Security vulnerabilities, for example using cryptographic functions with insecure algorithms, can be introduced by coding patterns that spread over the boundaries of several methods, classes or even files in the project. This is where graph-based analysis makes finding these vulnerabilities easier, by creating a framework where the source code can be represented as a graph and vulnerable",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783346540706"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3346540707"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 54,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.1.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=iBlPEAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=iBlPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=iBlPEAAAQBAJ&pg=PP1&dq=golang&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=iBlPEAAAQBAJ&dq=golang&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Incremental_Construction_of_Code_Propert.html?hl=&id=iBlPEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "KH",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "KH",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=iBlPEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "IOuazgEACAAJ",
+      "etag": "FYW/ishVeJ0",
+      "selfLink": "https://books.googleapis.com/books/v1/volumes/IOuazgEACAAJ",
+      "volumeInfo": {
+        "title": "WebAssembly for Cloud",
+        "subtitle": "A Basic Guide for Wasm-Based Cloud Apps",
+        "authors": [
+          "Shashank Mohan Jain"
+        ],
+        "publisher": "Apress",
+        "publishedDate": "2021-11-14",
+        "description": "Journey into the amazing world of WebAssembly (Wasm) and learn about how it can be applied on the cloud. This book is an introduction to Wasm aimed at professionals accustomed to working with cloud-related technologies such as Kubernetes and Istio service mesh. Author Shashank Jain begins with an introduction to Wasm and its related tooling such as wasm-bindgen and wapc. He then walks you through code examples using Rust, Golang, and JavaScript to demonstrate how they can be compiled to Wasm and consumed from Wasm runtimes deployed standalone, as well as on the cloud. You will see how a wasm module can be run through an http interface, and how Wasm fits into CNCF projects such as Kubernetes and Istio service mesh. After that, you’ll learn how the polyglot nature of WebAssembly can be leveraged through examples written in languages like Rust and consumed via Golang and JavaScript, with a focus on how WebAssembly allows interoperability between them. You’ll gain an understanding of how Wasm-based modules can be deployed inside Linux containers and orchestrated via Kubernetes, and how Wasm can be used within the Istio proxy to apply rules and filters. After reading this book, you’ll have the knowledge necessary to apply WebAssembly to create multi tenanted workloads which can be polyglot in nature and can be deployed on cloud environments like Kubernetes. What You Will Learn Understand how Wasm can be used for server-side applications Learn about Wasm memory model and Wasm module layout How communication between host and Wasm module is facilitated The basics of Wasm sandboxing and security The fundamentals of tooling around Wasm, such as WAT and Wasm-pack Create a Wasm module in Rust and consume it from JavaScript, Rust and Golang. Grasp how Kubernetes can be used to orchestrate Wasm-based workloads How Wasm fits into service mesh Who Is This Book For Software developers/architects who are looking to hone their skills in virtualization and explore alternatives to Docker and container-based technologies for their workload deployments. Readers should have a basic programming background in languages such as Rust and Golang to get the most out of this book.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1484274954"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781484274958"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 163,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=IOuazgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=IOuazgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=IOuazgEACAAJ&dq=golang&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=IOuazgEACAAJ&dq=golang&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/WebAssembly_for_Cloud.html?hl=&id=IOuazgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "KH",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "KH",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=IOuazgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "After reading this book, you’ll have the knowledge necessary to apply WebAssembly to create multi tenanted workloads which can be polyglot in nature and can be deployed on cloud environments like Kubernetes."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "hDQ8zwEACAAJ",
+      "etag": "99bTQhhb2l8",
+      "selfLink": "https://books.googleapis.com/books/v1/volumes/hDQ8zwEACAAJ",
+      "volumeInfo": {
+        "title": "EVENT-DRIVEN ARCHITECTURE IN GOLANG",
+        "subtitle": "Building Complex Systems with Asynchronicity And... Eventual Consistency",
+        "authors": [
+          "MICHAEL. STACK"
+        ],
+        "publishedDate": "2022",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1803238011"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781803238012"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=hDQ8zwEACAAJ&dq=golang&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=hDQ8zwEACAAJ&dq=golang&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/EVENT_DRIVEN_ARCHITECTURE_IN_GOLANG.html?hl=&id=hDQ8zwEACAAJ"
+      },
+      "saleInfo": {
+        "country": "KH",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "KH",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=hDQ8zwEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    }
+  ]
+}
